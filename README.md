@@ -15,6 +15,6 @@ Notes
 Customization and future
 ----------
 Yo can customize this installation with your own nginx/named config files.
-e.g. Run `docker run --name "yadns-nx" **-v /home/yourname/nginx.conf:/etc/nginx/nginx.conf** -d -p 80:80 -p 53:53 -p 53:53/udp yadns-nx 192.168.1.27` in order to customize with your own nginx.conf file.
+e.g. Run `docker run --name "yadns-nx" -v /home/yourname/nginx.conf:/etc/nginx/nginx.conf -d -p 80:80 -p 53:53 -p 53:53/udp yadns-nx 192.168.1.27` in order to customize with your own nginx.conf file.
 
-For now this image only resolves ***.nintendo.net** and ***.nintendowifi.net** addresses with a 200 OK and **X-Organization Nintendo header**, on the next update it will let pass these nintendo servers for online gaming functionality.
+For now this image only resolves `*.nintendo.net` and `*.nintendowifi.net` addresses with a `200 OK` and `X-Organization Nintendo header`, on the next update it will let pass these nintendo servers for online gaming functionality.
