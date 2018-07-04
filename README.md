@@ -5,7 +5,7 @@ Also it can be used to DNS block nintendo services.
 Usage
 ----------
 - Get the image with `docker pull luiscassih/yadns-nx`
-- Run `docker run --name "yadns-nx" -d -p 80:80 -p 53:53 -p 53:53/udp yadns-nx 192.168.1.27` where 192.168.1.27 must be your computer local IP address. You can check yours with a ipconfig, ifconfig, ip address, depending on your OS.
+- Run `docker run --name yadns-nx -d -p 80:80 -p 53:53 -p 53:53/udp luiscassih/yadns-nx 192.168.1.27` where 192.168.1.27 must be your computer local IP address. You can check yours with a ipconfig, ifconfig, ip address, depending on your OS.
 
 Notes
 ----------
