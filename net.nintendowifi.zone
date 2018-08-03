@@ -8,5 +8,5 @@ $TTL 1D
 
                         1D  IN  NS      nintendowifi.net.
 
-nintendowifi.net.             IN  A       192.168.1.31
-*                        IN  A       192.168.1.31
+nintendowifi.net.             IN  A       REPLACEIP
+*                             IN  A       REPLACEIP
